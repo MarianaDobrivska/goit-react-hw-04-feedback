@@ -1,0 +1,21 @@
+.buttonWrapper {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.button {
+  min-width: 75px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.209) 0px 2px 5px;
+  border: 1px solid rgba(214, 209, 209, 0.704);
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 250ms linear;
+}
+
+.button:hover {
+  scale: 1.1;
+  background-color: rgb(204, 200, 195);
+}
